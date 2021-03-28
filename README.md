@@ -7,8 +7,8 @@
 
 - 문제:
 
-1654 랜선 자르기 S3  https://www.acmicpc.net/problem/1654
-1966 프린터 큐 S3 https://www.acmicpc.net/problem/1966
+  - 1654 랜선 자르기 S3  https://www.acmicpc.net/problem/1654
+  - 1966 프린터 큐 S3 https://www.acmicpc.net/problem/1966
 
 
 
