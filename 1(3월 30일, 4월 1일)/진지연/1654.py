@@ -29,8 +29,8 @@ for i in range(lb, ub+1):
 
 
         
-# 갇힘
-# 이런 정렬 이름이 뭐였죠..
+# 오답
+# 이진탐색으 사용해보자
 def recur(lb, ub):
     # 종료조건
     if lb == ub:
@@ -52,4 +52,27 @@ def recur(lb, ub):
     else:
         ub = dvs
         recur(lb, ub-1)
+        
+
+# 해결
+# 재귀함수를 호출할 때 return을 붙여줘야 합니다
+ def recur(lb, ub):
+    # 종료조건
+    if lb > ub:
+        return lb
+
+    # 중간값
+    mid = (lb+ub)//2
+
+    cnt = 0
+    for dvd in dvds:
+        cnt += dvd//mid
+
+    if cnt >= n:
+        lb = mid+1
+        
+    else:
+        ub = mid-1
+
+    return recur(lb, ub) ########## 여기
         
