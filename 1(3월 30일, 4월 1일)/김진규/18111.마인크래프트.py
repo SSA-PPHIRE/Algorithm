@@ -1,5 +1,5 @@
-# 단순히 최대값과 최솟값을 목표로 잡고 계산하려고 하였다.
-# 실패하였다...ㅜ
+# # 단순히 최대값과 최솟값을 목표로 잡고 계산하려고 하였다.
+# # 실패하였다...ㅜ
 
 N, M, B = map(int, input().split())
 b_arr = []
@@ -48,3 +48,57 @@ else:
     ans = min_val
 
 print(res, ans)
+
+#######################################
+# 스터디 이후 다시 재도전!
+# 최솟값을 설정할 때에는 신중하게 해야겠다!
+# 어차피 좌표는 별다른 의미가 없으므로 각 수를 count해서 푸는 것이 더 효율적
+# 설정만 잘해준다면 브루트 포스도 빠르게 계산이 가능하다!
+# python3에서도 푸는것 성공!
+N, M, B = map(int, input().split())
+b_arr = [0]*257
+min_time = 256*N*M*2
+
+for _ in range(N):
+    tmp = list(map(int, input().split()))
+    for num in tmp:
+        b_arr[num] += 1
+
+for i in range(257):
+    if b_arr[i] >= 1:
+        min_val = i
+        break
+for i in range(256, -1, -1):
+    if b_arr[i] >= 1:
+        max_val = i
+        break
+
+for height in range(min_val, max_val+1):
+    flag = True
+    inventory = B
+    res_time = 0
+    for c in range(257):
+        if b_arr[c] != 0:
+            diff = c - height
+            diff = diff*b_arr[c]
+            if diff > 0:
+                res_time += diff * 2
+                inventory += diff
+            elif diff < 0:
+                res_time -= diff
+                inventory += diff
+
+            if res_time > min_time:
+                flag = False
+                break
+
+    if flag is False:
+        continue
+
+    if inventory < 0:
+        continue
+    if min_time >= res_time:
+        min_time = res_time
+        res = height
+
+print(min_time, res)
