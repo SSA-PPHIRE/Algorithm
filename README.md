@@ -16,7 +16,12 @@
 
 
   - 10816 숫자 카드 2 S4 (숙제) https://www.acmicpc.net/problem/10816
-
   - 18111 마인크래프트 S3 https://www.acmicpc.net/problem/18111
 
+### 3. 4/6 3회차 진행
+
+- 문제:
+
+  - 2805 나무 자르기 S3 (숙제): https://www.acmicpc.net/problem/2805
+  - 1463 1로 만들기 S3 : https://www.acmicpc.net/problem/1463
 
