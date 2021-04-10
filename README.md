@@ -31,3 +31,12 @@
 
   - 11866 요세푸스 문제 0 S4  (숙제) https://www.acmicpc.net/problem/11866
   - 1012 유기농 배추 S2 https://www.acmicpc.net/problem/1012
+
+### 5. 4/13 5회차 진행
+
+- 문제:
+
+  - 14503 로봇 청소기 G5 (숙제) https://www.acmicpc.net/problem/14503
+  - 14500 테트로미노 G5 https://www.acmicpc.net/problem/14500
+
+
