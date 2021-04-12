@@ -37,6 +37,6 @@
 - 문제:
 
   - 14503 로봇 청소기 G5 (숙제) https://www.acmicpc.net/problem/14503
-  - 14500 테트로미노 G5 https://www.acmicpc.net/problem/14500
+  - 14500 테트로미노 G5 (숙제)https://www.acmicpc.net/problem/14500
 
 
