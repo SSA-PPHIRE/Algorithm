@@ -39,4 +39,7 @@
   - 14503 로봇 청소기 G5 (숙제) https://www.acmicpc.net/problem/14503
   - 14500 테트로미노 G5 (숙제)https://www.acmicpc.net/problem/14500
 
+### 6. 4/15 6회차 진행
+
+ㅡ 프로그래머스 코드 챌린지로 대체
 
