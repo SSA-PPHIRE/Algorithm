@@ -43,3 +43,17 @@
 
 ㅡ 프로그래머스 코드 챌린지로 대체
 
+### 7. 4/20 7회차 진행
+
+- 문제:
+
+  - 9019 DSLR G5 (숙제) https://www.acmicpc.net/problem/9019
+  - 16236 아기 상어 G4 https://www.acmicpc.net/problem/16236
+
+### 8. 4/22 8회차 진행
+
+- 문제:
+
+  - 2589 보물섬 G5 (숙제) https://www.acmicpc.net/problem/2589
+  - 1987 알파벳 G4 https://www.acmicpc.net/problem/1987
+
