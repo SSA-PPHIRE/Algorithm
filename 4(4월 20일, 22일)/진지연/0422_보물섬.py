@@ -10,6 +10,17 @@ bfs는 제일 마지막 게 제일 긴 거니까 걔를 반환하면 됨
 
 unboundedlocalerror 떴음
 전역변수에 global 안 해주면 뜬다는데.. 못 찾겠
+
+=> UnboundLocalError: local variable 'x' referenced before assignment
+변수 선언전에 불러와서 문제가 생긴 것입니당
+
+bfs에서 longest를 반환할 때 while 문이 한번도 실행되지 않는다면
+longest라는 변수는 존재하지 않게 되므로 오류가 발생합니당
+
+while deq와 dist[root_r][root_c] 사이에 longest = 0 추가하고 실행하니까 통과합니당😁
+
+다 읽고 이해하셨으면 수정할 때 이 글도 함께 지워주세용~
+
 '''
 from collections import deque
 from copy import deepcopy
