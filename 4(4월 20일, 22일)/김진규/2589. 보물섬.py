@@ -1,5 +1,5 @@
-# 그냥 bfs 한다음 나온 거리중 최댓값을 구하면 됨
-# 나중에 주석 추가 예정
+# bfs 한다음 나온 거리중 최댓값을 구하면 됨
+# 딱히 주석 추가할게 엄따...
 
 from collections import deque
 
@@ -23,6 +23,7 @@ N, M = map(int, input().split())
 arr = [list(input()) for _ in range(N)]
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
+# 나온 거리를 중복없이 저장하기 위한 set
 distance = set()
 
 for i in range(N):
