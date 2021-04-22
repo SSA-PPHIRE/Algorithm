@@ -57,7 +57,7 @@ def DFS(r,c, cnt):
                 # collected.append(arr[new_r][new_c])
                 DFS(new_r,new_c, cnt+1)
                 # collected.remove(arr[new_r][new_c])
-    collected.remove(arr[new_r][new_c])
+    collected.remove(arr[r][c])
 
 
 row, col = 2, 4
