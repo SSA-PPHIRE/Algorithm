@@ -57,3 +57,9 @@
   - 2589 보물섬 G5 (숙제) https://www.acmicpc.net/problem/2589
   - 1987 알파벳 G4 https://www.acmicpc.net/problem/1987
 
+### 9. 4/27 9회차 진행
+
+- 문제:
+
+  - 9663 N-Queen G5 (숙제) https://www.acmicpc.net/problem/9663
+  - 2206 벽 부수고 이동하기 G4 https://www.acmicpc.net/problem/2206
