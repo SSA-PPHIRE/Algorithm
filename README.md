@@ -63,3 +63,11 @@
 
   - 9663 N-Queen G5 (숙제) https://www.acmicpc.net/problem/9663
   - 2206 벽 부수고 이동하기 G4 https://www.acmicpc.net/problem/2206
+
+
+### 10. 5/4 10회차 진행
+
+- 문제:
+
+  - 14499 주사위 굴리기 G5(숙제) https://www.acmicpc.net/problem/14499
+  - 1644 소수의 연속합 G3 https://www.acmicpc.net/problem/1644
