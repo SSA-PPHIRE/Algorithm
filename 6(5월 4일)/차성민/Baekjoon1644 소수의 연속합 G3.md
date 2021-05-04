@@ -47,8 +47,7 @@ print(res)
 
 
 1) 첫 구현 로직
-
-<img src="C:\Users\ckpow\OneDrive\바탕 화면\1644 logic.jpg" alt="1644 logic" style="zoom:80%;" />
+![1644 logic](https://user-images.githubusercontent.com/51193582/116994818-311f0600-ad14-11eb-8619-4690852c1c4c.jpg)
 
 
 
