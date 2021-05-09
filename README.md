@@ -72,3 +72,11 @@
 
   - 14499 주사위 굴리기 G5(숙제) https://www.acmicpc.net/problem/14499
   - 1644 소수의 연속합 G3 https://www.acmicpc.net/problem/1644
+
+### 11. 5/11 11회차 진행
+
+- 문제:
+
+  - 12865 평범한 배낭 G5(숙제) https://www.acmicpc.net/problem/12865
+  - 1043 거짓말 G4 https://www.acmicpc.net/problem/1043
+
