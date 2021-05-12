@@ -80,3 +80,7 @@
   - 12865 평범한 배낭 G5(숙제) https://www.acmicpc.net/problem/12865
   - 1043 거짓말 G4 https://www.acmicpc.net/problem/1043
 
+
+### 12. 5/13 12회차 진행
+
+ㅡ 프로그래머스 코드 챌린지로 대체
