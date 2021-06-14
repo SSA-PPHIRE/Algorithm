@@ -93,3 +93,12 @@
   - 10026 적록색약 (숙제) G5 https://www.acmicpc.net/problem/10026
   - 1806 부분합 G4 https://www.acmicpc.net/problem/1806
 
+### 14. 6/17 14회차 진행
+
+- 문제 :
+
+  - 튜플(숙제) https://programmers.co.kr/learn/courses/30/lessons/64065
+  - 전화번호 목록(숙제)https://programmers.co.kr/learn/courses/30/lessons/42577
+  - 다리를 지나는 트럭(숙제)https://programmers.co.kr/learn/courses/30/lessons/42583
+
+
