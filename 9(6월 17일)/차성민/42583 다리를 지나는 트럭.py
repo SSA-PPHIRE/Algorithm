@@ -9,6 +9,8 @@ def solution(bridge_length, weight, truck_weights):
 
     '''
         현재까지의 무게 + 가장 가벼운 트럭이 한계 무게보다 큰지 확인
+        트럭을 올리는 방법만을 고려하여 시간을 먼저 구하고, 
+        트럭이 모두 없어진 다음에 answer에 다리에 올라갈 수 있는 트럭 수 만큼 더해줌.
     '''
 
     while truck_weights: #트럭이 없어질 때 까지
