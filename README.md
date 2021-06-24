@@ -101,4 +101,10 @@
   - 전화번호 목록(숙제)https://programmers.co.kr/learn/courses/30/lessons/42577
   - 다리를 지나는 트럭(숙제)https://programmers.co.kr/learn/courses/30/lessons/42583
 
+### 15. 6/24 15회차 진행
 
+- 문제 :
+
+  - 더 맵게(숙제) https://programmers.co.kr/learn/courses/30/lessons/42626
+  - 기능개발(숙제) https://programmers.co.kr/learn/courses/30/lessons/42586
+  - 타겟 넘버(숙제) https://programmers.co.kr/learn/courses/30/lessons/43165
