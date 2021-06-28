@@ -1,6 +1,8 @@
-# 7/1 16회차 일정
+# 7월 1주차 진행일정 🙉
 
-문제:
+## 7월 1일 일정
+
+### 문제
 
 1. 삼각 달팽이(숙):
 https://programmers.co.kr/learn/courses/30/lessons/68645
