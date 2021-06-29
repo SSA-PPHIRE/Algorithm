@@ -9,7 +9,7 @@ def solution(people, limit):
     
     while light_idx <  heavy_idx:
         # 가벼운 + 무거운 사람 같이 탈 수 있을 경우
-        # 보트 수 하나 빼기
+        # 짝지어지면 보트 수 하나 빼기
         if people[light_idx] + people[heavy_idx] <= limit :
             answer -= 1
             light_idx +=1
