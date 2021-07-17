@@ -108,3 +108,35 @@
   - 더 맵게(숙제) https://programmers.co.kr/learn/courses/30/lessons/42626
   - 기능개발(숙제) https://programmers.co.kr/learn/courses/30/lessons/42586
   - 타겟 넘버(숙제) https://programmers.co.kr/learn/courses/30/lessons/43165
+
+### 16. 7/1 16회차 진행
+
+- 문제 :
+
+  - 삼각 달팽이(숙): https://programmers.co.kr/learn/courses/30/lessons/68645
+  - 구명보트(숙): https://programmers.co.kr/learn/courses/30/lessons/42885
+  - 다음 큰 숫자(숙): https://programmers.co.kr/learn/courses/30/lessons/12911
+
+### 17. 7/8 17회차 진행
+
+- 문제 :
+
+  - 124 나라의 숫자(숙) https://programmers.co.kr/learn/courses/30/lessons/12899
+  - 오픈채팅방(숙) https://programmers.co.kr/learn/courses/30/lessons/42888
+  - 프린터(숙) https://programmers.co.kr/learn/courses/30/lessons/42587
+
+### 18. 7/15 18회차 진행
+
+- 문제 :
+
+  - 동전 1 (S1) [숙] https://www.acmicpc.net/problem/2293
+  - LCS (G5) [숙] https://www.acmicpc.net/problem/9251
+  - 가장 긴 바이토닉 부분 수열 (G3) [숙] https://www.acmicpc.net/problem/11054
+
+### 19. 7/22 19회차 진행
+
+- 문제 :
+
+  - 신기한 키보드 (G5) [숙] https://www.acmicpc.net/problem/1796
+  - 줄세우기 (G5) [숙] https://www.acmicpc.net/problem/2631
+  - 카드 게임 (G3) [숙] https://www.acmicpc.net/problem/11062
