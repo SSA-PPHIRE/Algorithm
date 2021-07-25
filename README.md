@@ -140,3 +140,10 @@
   - 신기한 키보드 (G5) [숙] https://www.acmicpc.net/problem/1796
   - 줄세우기 (G5) [숙] https://www.acmicpc.net/problem/2631
   - 카드 게임 (G3) [숙] https://www.acmicpc.net/problem/11062
+
+### 20. 7/29 20회차 진행
+
+- 문제 :
+
+  - 1. 네트워크 [숙] https://programmers.co.kr/learn/courses/30/lessons/43162?language=python3
+  - 2. 단어 변환 [숙] https://programmers.co.kr/learn/courses/30/lessons/43163
