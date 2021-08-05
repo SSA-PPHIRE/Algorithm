@@ -1,6 +1,8 @@
 # 생각한 방법
 # post_order에서 뒤에서 하나씩 앞으로 가면서 in_order에서 해당하는 위치를 찾아 분할 정복
 # 하지만 구현을 어떻게 해야할지 모르겠다...
+# 밑에 코드는 대충 짜본건데 돌아가지 않아요...
+# 참고만 하시길!
 
 n = int(input())
 in_order = list(map(int, input().split()))
