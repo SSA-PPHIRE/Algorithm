@@ -9,6 +9,7 @@
 def solution(citations):
     if max(citations) == 0:
         return 0
+    citations.sort(reverse=True)
     
     for h in range(max(citations),0,-1):
         max_h = 0
