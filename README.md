@@ -145,5 +145,36 @@
 
 - 문제 :
 
-  - 1. 네트워크 [숙] https://programmers.co.kr/learn/courses/30/lessons/43162?language=python3
-  - 2. 단어 변환 [숙] https://programmers.co.kr/learn/courses/30/lessons/43163
+  - 네트워크 [숙] https://programmers.co.kr/learn/courses/30/lessons/43162?language=python3
+  - 단어 변환 [숙] https://programmers.co.kr/learn/courses/30/lessons/43163
+
+### 21. 8/5 21회차 진행
+
+- 문제 :
+
+  - 별 찍기 - 11 (G4) [숙] https://www.acmicpc.net/problem/2448
+  - 트리의 순회 (G3) [숙] https://www.acmicpc.net/problem/2263
+  - 내려가기 (G4) [숙] https://www.acmicpc.net/problem/2096
+
+### 22. 8/26 22회차 진행
+
+- 문제 :
+
+  - 소수찾기 https://programmers.co.kr/learn/courses/30/lessons/42839
+  - H-index https://programmers.co.kr/learn/courses/30/lessons/42747
+  - 미세먼지 안녕! (G4) https://www.acmicpc.net/problem/17144
+
+### 23. 9/2 23회차 진행
+
+- 문제 :
+
+  - 탐욕법 체육법(Lv1) https://programmers.co.kr/learn/courses/30/lessons/42862
+  - 그래프 가장먼노드(Lv3) https://programmers.co.kr/learn/courses/30/lessons/49189
+
+
+### 24. 9/9 24회차 진행
+
+- 문제 :
+
+  - 그래프 순위 (Lv 3) https://programmers.co.kr/learn/courses/30/lessons/49191
+  - 힙 디스크컨트롤러 (Lv 3) https://programmers.co.kr/learn/courses/30/lessons/42627
