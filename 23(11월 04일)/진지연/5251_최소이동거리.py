@@ -34,3 +34,40 @@ for tc in range(1, t+1):
                 q.append([new_s, total + weights[s][new_s]])
     
     print(f'#{tc} {minimum_cost[n]}')
+    
+    
+'''
+최소이동거리
+
+w가 작은 순으로 정렬하고
+사이클이 없으면 추가한다
+'''
+def find_rep(n):
+    while n != rep[n]:
+        n = rep[n]
+    return n
+
+t = int(input())
+for tc in range(1, t+1):
+    total, edge = map(int, input().split())
+    rep = [i for i in range(total+1)]
+    
+    arrs = [list(map(int, input().split())) for _ in range(edge)]
+    arrs.sort(key=lambda x: x[2], reverse=True)
+    
+    cnt = 0
+    weights = 0
+    
+    while cnt <= total - 1:
+        s,e,w = arrs.pop()
+        # print(s,e,find_rep(s), find_rep(e))
+        # 사이클이 있으면 건너뛴다
+        if find_rep(s) == find_rep(e):
+            continue
+        # 사이클이 없으면 e를 s 가족에 포함시킨다
+        rep[find_rep(e)] = find_rep(s)
+        cnt += 1
+        weights += w
+        # print(find_rep(s), find_rep(e))
+
+    print(f'#{tc} {w}')
