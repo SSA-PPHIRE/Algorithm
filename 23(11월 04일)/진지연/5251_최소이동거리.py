@@ -74,3 +74,41 @@ for tc in range(1, t+1):
         # print(find_rep(s), find_rep(e))
 
     print(f'#{tc} {w}')
+    
+    
+'''
+다익스트라 알고리즘
+https://m.blog.naver.com/ndb796/221234424646
+'''
+
+
+'''
+dist[s]에서 미방문 & 최소값 t를 고른다.
+dist[s][i]와 dist[s][t]+dist[t][i]를 비교해서 업데이트한다.
+'''
+def dij(dist, n):
+    visited = []
+    while len(visited) < n+1:
+        # dist[0]에서 미방문 & 최소값 t를 고른다.
+        mn = float('inf')
+        for tmp_t in range(n+1):
+            if tmp_t not in visited and mn > dist[0][tmp_t]:
+                mn = dist[0][tmp_t]
+                t = tmp_t
+        visited.append(t)
+
+        # dist[s][i]와 dist[s][t]+dist[t][i]를 비교한다
+        for i in range(n+1):
+            dist[0][i] = min(dist[0][i], dist[0][t]+dist[t][i])
+
+t = int(input())
+for tc in range(1, t+1):
+    n, e = map(int, input().split())
+    dist = [[float('inf')]*(n+1) for _ in range(n+1)]
+    for _ in range(e):
+        s, e, w = map(int, input().split())
+        dist[s][e] = w
+    dij(dist,n)
+    print(f'#{tc} {dist[0][n]}')
+
+
